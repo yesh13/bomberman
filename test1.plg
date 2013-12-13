@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: test1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\yeshuhao\LOCALS~1\Temp\RSP7DBF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/test1.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\yeshuhao\桌面\新建文件夹\新建文件夹\AI.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yeshuhao\LOCALS~1\Temp\RSP7DBF.tmp" 
+Creating temporary file "C:\DOCUME~1\yeshuhao\LOCALS~1\Temp\RSP7DC0.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/test1.pdb" /debug /machine:I386 /out:"Debug/test1.exe" /pdbtype:sept 
+".\Debug\AI.obj"
+".\Debug\Block.obj"
+".\Debug\Bomb.obj"
+".\Debug\Character.obj"
+".\Debug\DoubleGameView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MainSet.obj"
+".\Debug\Map.obj"
+".\Debug\ResourceMap.obj"
+".\Debug\StdAfx.obj"
+".\Debug\test1.obj"
+".\Debug\test1Doc.obj"
+".\Debug\test1View.obj"
+".\Debug\test1.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\yeshuhao\LOCALS~1\Temp\RSP7DC0.tmp"
+<h3>Output Window</h3>
+Compiling...
+AI.cpp
+C:\Documents and Settings\yeshuhao\桌面\新建文件夹\新建文件夹\AI.cpp(55) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Linking...
+Creating temporary file "C:\DOCUME~1\yeshuhao\LOCALS~1\Temp\RSP7DC1.tmp" with contents
+[
+/nologo /o"Debug/test1.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\AI.sbr"
+".\Debug\Block.sbr"
+".\Debug\Bomb.sbr"
+".\Debug\Character.sbr"
+".\Debug\DoubleGameView.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\MainSet.sbr"
+".\Debug\Map.sbr"
+".\Debug\ResourceMap.sbr"
+".\Debug\test1.sbr"
+".\Debug\test1Doc.sbr"
+".\Debug\test1View.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\yeshuhao\LOCALS~1\Temp\RSP7DC1.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+test1.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

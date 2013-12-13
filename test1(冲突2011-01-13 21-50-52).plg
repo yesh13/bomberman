@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: test1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\yeshuhao\LOCALS~1\Temp\RSP8F94.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/test1.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\øÏ≈Ã\test1 11-1-13ye\test1View.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yeshuhao\LOCALS~1\Temp\RSP8F94.tmp" 
+Creating temporary file "C:\DOCUME~1\yeshuhao\LOCALS~1\Temp\RSP8F95.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/test1.pdb" /debug /machine:I386 /out:"Debug/test1.exe" /pdbtype:sept 
+".\Debug\Block.obj"
+".\Debug\Bomb.obj"
+".\Debug\Character.obj"
+".\Debug\DoubleGameView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MainSet.obj"
+".\Debug\Map.obj"
+".\Debug\ResourceMap.obj"
+".\Debug\StdAfx.obj"
+".\Debug\test1.obj"
+".\Debug\test1Doc.obj"
+".\Debug\test1View.obj"
+".\Debug\test1.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\yeshuhao\LOCALS~1\Temp\RSP8F95.tmp"
+<h3>Output Window</h3>
+Compiling...
+test1View.cpp
+D:\øÏ≈Ã\test1 11-1-13ye\test1View.cpp(315) : warning C4390: ';' : empty controlled statement found; is this the intent?
+Linking...
+Creating temporary file "C:\DOCUME~1\yeshuhao\LOCALS~1\Temp\RSP8F96.tmp" with contents
+[
+/nologo /o"Debug/test1.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\Block.sbr"
+".\Debug\Bomb.sbr"
+".\Debug\Character.sbr"
+".\Debug\DoubleGameView.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\MainSet.sbr"
+".\Debug\Map.sbr"
+".\Debug\ResourceMap.sbr"
+".\Debug\test1.sbr"
+".\Debug\test1Doc.sbr"
+".\Debug\test1View.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\yeshuhao\LOCALS~1\Temp\RSP8F96.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+test1.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
